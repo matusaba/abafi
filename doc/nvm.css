@@ -1,0 +1,39 @@
+
+
+.Satisfied{
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid #ccc;
+    text-align: center;
+}
+
+.red-square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+
+.Satisfied{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.Install{
+
+    width: 350px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    border-radius: 5px;
+
+}
+
+.grey{
+
+color: rgb(204, 204, 204);
+
+}

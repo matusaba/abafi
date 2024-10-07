@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c00505, #c00505, #c00505);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.6;
+    height: 100vh;
+}
+
+
+
+.container:hover {
+    transform: scale(1.02); 
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2.2em; 
+    letter-spacing: 1px; 
+}
+
+.profilePic {
+    width: 160px; 
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; 
+}
+
+.profilePic:hover {
+    transform: scale(1.1); 
+}
+
+button {
+    padding: 12px 20px; 
+    background-color: #004d40; 
+    color: white;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1em; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+button:hover {
+    background-color: #00695c; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); 
+}
+
+.bio {
+    margin-top: 20px;
+    
+}
